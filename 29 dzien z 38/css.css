@@ -1,0 +1,82 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#srod{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#zegar{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    position: relative;
+}
+.wskaz{
+    width: 20px;
+    height: 50%;
+    
+    position: absolute;
+  
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(0deg);
+    
+
+}
+#kolko{
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: blue;
+    z-index: 99;
+    left: 44%;
+    top: 44%;
+
+    
+}
+#godz{
+    width: 20px;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 50%;
+ 
+    
+    
+
+}
+#min{
+    width: 15px;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+   
+}
+#sec{
+    width: 10px;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    
+}
+
+

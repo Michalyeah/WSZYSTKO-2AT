@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#kalk{
+    width: 600px;
+    height: 700px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 3px solid black;
+}
+
+#up{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#BMI{
+    width: 80%;
+    background-color: rgb(0, 161, 0);
+    height: 20%;
+    margin-bottom: 25px;
+     border: 3px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: xx-large;
+}
+#PPM{
+    width: 80%;
+    background-color: rgb(0, 161, 0);
+    height: 20%;
+    margin-bottom: 25px;
+     border: 3px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: xx-large;
+}
+#skala{
+    width: 80%;
+    border: 3px solid black;
+    height: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#down input{
+    margin-top: 15px;
+    width: 60%;
+}
+#down select{
+    margin-top: 15px;
+    width: 60%;
+     margin-bottom: 15px;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.choose label{
+    margin: 0;
+    display: flex;
+    
+}
+#oblicz{
+    width: 80%;
+    height: 27%;
+    margin-top: 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#guzik{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.clr{
+
+    height: 100%;
+    
+}
+#clr-1{
+    background-color: blue;
+    width: 17.2%;
+}
+#clr-2{
+    background-color: green;
+    width: 25.6%;
+}
+#clr-3{
+    background-color: yellow;
+    width: 20%;
+}
+#clr-4{
+    background-color: orange;
+    width: 20%;
+}
+#clr-5{
+    background-color: red;
+    width: 17.2%;
+}
+#linia{
+    position: absolute;
+    width: 3px;
+    
+    height: 150%;
+    background-color: rgb(0, 255, 0);
+    
+    
+}

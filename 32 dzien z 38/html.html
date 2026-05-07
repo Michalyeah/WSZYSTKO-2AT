@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <input type="file" name="" id="link">
+    <button id="but" onclick="wywolaj()">Wyświetl</button>
+
+    <section id="imgi">
+        <div id="left"><img src="" alt=""></div>
+        <div id="right">
+            <label for="wiele">Wiele filtrów</label>
+            <input type="checkbox" name="" id="wiele">
+            <label for="F1">Opacity</label>
+            
+            <input type="range" name="" id="raidus1" min="0" max="100" onchange="Okra1()">
+            <label for="F2">Sepia</label>
+   
+            <input type="range" name="" id="raidus2" min="0" max="100" onchange="Okra2()">
+            <label for="F3">Blur</label>
+            <input type="range" name="" id="raidus3" min="0" max="100" onchange="Okra3()">
+            <label for="F4">Contrast</label>
+            <input type="range" name="" id="raidus4" min="0" max="100" onchange="Okra4()">
+            <label for="F5">Brightness</label>
+            <input type="range" name="" id="raidus5" min="0" max="100" onchange="Okra5()">
+            <label for="F6">Invert</label>
+            <input type="range" name="" id="raidus6" min="0" max="100" onchange="Okra6()">
+            <label for="F7">Saturity</label>
+            <input type="range" name="" id="raidus7" min="0" max="100" onchange="Okra7()">
+            <label for="F8">Hue Rotate</label>
+            <input type="range" name="" id="raidus8" min="0" max="100" onchange="Okra8()">
+            <label for="raidus">Border Radius</label>
+            <input type="range" name="" id="raidus" min="0" max="100" onchange="Okrag()">
+        </div>
+        <div id="righter">
+            <button id="11" onclick="apsectratio('1/1')">1/1</button>
+            <button id="169" onclick="apsectratio('16/9')">16/9</button>
+            <button id="43" onclick="apsectratio('4/3')">4/3</button>
+            <button id="916" onclick="apsectratio('9/16')">9/16</button>
+        </div>
+    </section>
+    
+    <textarea name="" id="cod" rows="15"></textarea>
+
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>

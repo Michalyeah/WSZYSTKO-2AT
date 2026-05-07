@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Kalkulator BMI/PPM</h1></header>
+    <section id="mid">
+        <div id="kalk">
+            <div id="up">
+                <div id="BMI"></div>
+                <div id="PPM"></div>
+                <div id="skala"><div id="clr-1" class="clr"></div><div id="clr-2" class="clr"></div><div id="clr-3" class="clr"></div><div id="clr-4" class="clr"></div><div id="clr-5" class="clr"></div><div id="linia"></div></div>
+            </div>
+            <div id="down">
+        <input type="text" placeholder="Masa" id="masa">
+        <input type="text" placeholder="Wzrost" id="wzrost">
+        <input type="text" placeholder="Wiek" id="wiek">
+        <select id="aktywnosc">
+            <option value="1">praca siedząca, brak treningów</option>
+            <option value="2">niska aktywność</option>
+            <option value="3">umiarkowana aktywność</option>
+            <option value="4">wysoka aktywność</option>
+        </select>
+        <div class="choose">
+            <input type="radio" name="plec" id="man" value="Mezczyzna"><Label for="man">Mężczyzna</Label>
+            <input type="radio" name="plec" id="woman" value="Kobieta"><Label for="woman">Kobieta</Label>
+        </div>
+        
+        
+    </div>
+    <div id="oblicz"><button id="guzik" onclick="oblicz()"><h1>OBLICZ</h1></button></div>
+</div>
+
+        
+
+          
+    </section>
+
+    <script src="dzejes.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Płot</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header><h1>Kalkulator ogrodzenia</h1></header>
+    <section id="mid">
+        <div id="left">
+            <label for="metr">Ilość metrów</label>
+            <input type="number" placeholder="Metry" id="metr">
+            <label for="naroz">Ilość narożników</label>
+            <input type="number" placeholder="Narożniki" id="naroz">
+            <label for="color">Kolor</label>
+            <select name="Kolor" id="color">
+                <option value="zielony plot.png">Zielony       (100zł)</option>
+                <option value="plot.png">Czarny        (110zł)</option>
+                <option value="grafit.png">Grafitowy     (120zł)</option>
+                <option value="ocynk.png">Ocynkowany     (0zł)</option>
+            </select>
+            <label for="podm">Podmurówka</label>
+            <select name="Podmurówka" id="podm">
+                <option value="betonowa">Betonowa</option>
+                <option value="brak">Brak</option>
+            </select>
+            <label for="furtka">Ilość furtek</label>
+            <input type="number" id="furtka" placeholder="Furtka">
+            <label for="bram">Brama</label>
+            <select name="Brama" id="bram">
+                <option value="1">Tak</option>
+                <option value="2">Nie</option>
+            </select>
+            <label for="bram-il">Ilość Bram</label>
+            <input type="number" placeholder="Ilość Bram" id="bram-il">
+            <label for="bram-rodz">Rodzaj Bramy</label>
+            <select name="Rodzaj" id="rodzaj">
+                <option value="brama-skrzydlowa.png">Skrzydłowa Ręczna</option>
+                <option value="brama-przesuwna.png">Przesuwna Ręczna</option>
+                <option value="brama-skrzydlowa-aut.png">Skrzydłowa Automatyczna</option>
+                <option value="brama-przesuwna-aut.png">Przesuwna Automatyczna</option>
+            </select>
+          
+            <label for="panel">Rodzaj Panelu</label>
+             <select name="panel" id="panel">
+                <option value="3mm">3mm</option>
+                <option value="4mm">4mm</option>
+                <option value="5mm">5mm</option>
+                
+            </select>
+           
+           
+        </div>
+        <div id="right">
+            <img src="zielony plot.png" alt="plot" id="imgPlot">
+            <img src="brama-skrzydlowa.png" alt="brama" id="imgBrama"> 
+            <button id="but" onclick="Oblicz()">Licz</button>
+        </div>
+
+        
+    </section>
+
+        <table id="table">
+            <thead><tr>
+                <th><h2>Fakture poproszę</h2></th>
+            </tr></thead>
+            <tbody id="tbody"></tbody>
+            <tfoot id="tfoot"></tfoot>
+        </table>
+        <button id="back" onclick="back()">Powrót</button>
+
+
+
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
